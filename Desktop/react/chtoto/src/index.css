@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app{
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.ul{
+  width: 350px;
+  height: 400px;
+  font-size: 60px;
+  margin: 25px;
+  padding: 25px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.block{
+  width: 500px;
+  height: 400px;
+  padding: 25px 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+}
+
+.a1{
+  background-color: red;
+}
+.a2{
+  background-color: blue;
+}
+.a3{
+  background-color: violet;
+}
+
+img{
+  margin: 20px;
+  border: none;
+}
+
+.img1{
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  margin-left: -200px;
+  background: green/* url('') */;
+}
+.img2{
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  background: blue/* url('') */;
+}
+.img3{
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  margin-left: 200px;
+  background: url('https://img03.rl0.ru/afisha/1808x1016q65i/s.afisha.ru/ms/LW3MGIACVPftawprSVGjB2E5kXLFBcJWed7spmSvZ34.jpg');
+}
